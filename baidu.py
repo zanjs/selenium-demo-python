@@ -11,3 +11,5 @@ driver.find_element_by_id('kw').send_keys('zanjs')  # 在搜索框内输入想�
 time.sleep(2)  # 浏览器加载需要时间
 
 driver.find_element_by_id('su').click()  # 搜索完成
+
+driver.close()
